@@ -1,0 +1,120 @@
+@import "main";
+
+
+.header {
+  width: 100%;
+  height: 96.3rem;
+  display: flex;
+}
+
+.header_img {
+  width: 50%;
+  height: 100%;
+  background-image: url("../assets/Home-Hero-Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+
+}
+
+.header_nav {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+
+}
+
+.header_nav_login {
+  width: 100%;
+  text-align: end;
+}
+
+.header_nav_login_li {
+  padding-right: 2rem;
+  font-size: 1.2rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+
+}
+
+.header_nav_login_link {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  margin: 2rem;
+
+}
+
+.header_nav_menu {
+  margin-top: 3rem;
+
+}
+
+.border_dark_link {
+  border: 1px solid $color-text;
+  padding: 1rem 2rem;
+}
+
+.border_yellow_link {
+  border: 1px solid $color-border;
+  padding: 1rem 2rem;
+}
+
+.header_nav_description {
+  margin-top: 25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.header_nav_description_h1 {
+  font-size: 2.8rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header_nav_description_span {
+  font-size: 2.8rem;
+  font-family: $font-base;
+  color: $color-text;
+
+  text-align: center;
+}
+
+.header_nav_description_img {
+  width: 25.3rem;
+  height: 3.3rem;
+  background-image: url("../assets/Decoration.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.header_nav_description_button {
+  margin-top: 10rem;
+}
+
+.header_nav_description_button_link {
+  flex-wrap: wrap;
+  font-size: 1.6rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  border: .1rem solid $color-text;
+  padding: 5rem;
+  margin: 2rem;
+}
