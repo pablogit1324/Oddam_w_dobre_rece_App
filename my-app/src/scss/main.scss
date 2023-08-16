@@ -1,0 +1,15 @@
+@import "./settings/_colors.scss";
+@import "./settings/_fonts.scss";
+@import "./settings/_reset.scss";
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: $font-base;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
