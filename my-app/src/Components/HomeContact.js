@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function HomeContact({HomeContacts}) {
+function HomeContact(HomeContacts) {
     return (
         <section id={HomeContacts} className="contact container"></section>
     )

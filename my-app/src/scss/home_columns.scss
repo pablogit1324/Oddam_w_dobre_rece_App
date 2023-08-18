@@ -1,0 +1,348 @@
+@import "main.scss";
+
+.columns {
+  width: 100%;
+  height: 38.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10rem;
+  background-image: url("../assets/3-Columns-Background.png");
+
+}
+
+.columns__column {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.columnfirst {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+
+.columnfirst__title {
+  font-size: 9rem;
+  font-family: $font-base;
+  color: $color-text;
+  font-weight: 300;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.columnfirst__subtitle {
+  font-size: 1.8rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.columnfirst__text {
+  width: 33.4rem;
+  font-family: $font-base;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.columnsecond {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+.columnsecond__title {
+  font-size: 9rem;
+  font-family: $font-base;
+  font-weight: 300;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.columnsecond__subtitle {
+  font-size: 1.8rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.columnsecond__text {
+  width: 33.4rem;
+  font-family: $font-base;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.columnthird {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+.columnthird__title {
+  font-size: 9rem;
+  font-family: $font-base;
+  font-weight: 300;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.columnthird__subtitle {
+  font-size: 1.8rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.columnthird__text {
+  width: 33.4rem;
+  font-family: $font-base;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.stepcolumn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.hedaing_steps_text {
+  font-size: 3.8rem;
+  font-family: $font-base;
+  font-weight: 300;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps_img {
+  width: 25.3rem;
+  height: 3.3rem;
+  background-image: url("../assets/Decoration.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps {
+  width: 100%;
+  height: 32.5rem;
+  background-color: $background-secondary;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+.steps__firststep{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.steps__firststep__title {
+  font-size: 1.8rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps__firststep__text {
+  width: 33.4rem;
+  font-family: $font-base;
+  font-size: 1.6rem;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.steps__firststep__img {
+  width: 8.3rem;
+  height: 8.3rem;
+  background-image: url("../assets/Icon-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps__secondstep{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.steps__secondstep__title {
+  font-size: 1.8rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps__secondstep__text {
+  width: 33.4rem;
+  font-family: $font-base;
+  font-size: 1.6rem;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.steps__secondstep__img {
+  width: 8.3rem;
+  height: 8.3rem;
+  background-image: url("../assets/Icon-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps__thirdstep{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.steps__thirdstep__title {
+  font-size: 1.8rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps__thirdstep__text {
+  width: 33.4rem;
+  font-family: $font-base;
+  font-size: 1.6rem;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.steps__thirdstep__img {
+  width: 8.3rem;
+  height: 8.3rem;
+  background-image: url("../assets/Icon-3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps__fourthstep{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.steps__fourthstep__title {
+  font-size: 1.8rem;
+  font-family: $font-base;
+  color: $color-text;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps__fourthstep__text {
+  width: 33.4rem;
+  font-family: $font-base;
+  font-size: 1.6rem;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.steps__fourthstep__img {
+  width: 8.3rem;
+  height: 8.3rem;
+  background-image: url("../assets/Icon-4.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps__button__text {
+  width: 31rem;
+  height: 12rem;
+  background-color: $background-primary;
+  border: .1rem solid black;
+  font-family: $font-base;
+  font-size: 3.6rem;
+  font-weight: 300;
+  color: $color-text;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}

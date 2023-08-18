@@ -3,16 +3,18 @@ import {Link} from "react-router-dom";
 import {Link as ScrollLink} from "react-scroll";
 import "../scss/home_header.scss";
 import "../scss/main.scss";
-import HomeColumns from './HomeColumns';
 import HomeAboutUs from './HomeAboutUs';
 import HomeWhoWeHelp from './HomeWhoWeHelp';
 import HomeContact from './HomeContact';
-const HomeColumnsData = <HomeColumns props={'HomeColumns'}/>;
-const HomeAbout = <HomeAboutUs props={'HomeAboutUs'}/>;
-const HomeWhoHelp = <HomeWhoWeHelp props={'HomeWhoWeHelp'}/>;
-const HomeContacts = <HomeContact props={'HomeContact'}/>;
+
 
 function HomeHeader() {
+    const HomeColumnsData = document.getElementById('HomeColumnsData')
+    const HomeColumns = <HomeColumnsData props={'HomeColumnsData'}/>;
+    const HomeAbout = <HomeAboutUs props={'HomeAboutUs'}/>;
+    const HomeWhoHelp = <HomeWhoWeHelp props={'HomeWhoWeHelp'}/>;
+    const HomeContacts = <HomeContact props={'HomeContact'}/>;
+
     return (
 
         <section id="HomeHeader" className="header container">
@@ -26,7 +28,7 @@ function HomeHeader() {
                     <ScrollLink to="HomeHeader" className="header_nav_login_link border_dark_link">
                         Start
                     </ScrollLink>
-                    <ScrollLink to={HomeColumnsData} className="header_nav_login_link">
+                    <ScrollLink to={HomeColumns} className="header_nav_login_link">
                         O co chodzi?
                     </ScrollLink>
                     <ScrollLink to={HomeAbout} className="header_nav_login_link">
