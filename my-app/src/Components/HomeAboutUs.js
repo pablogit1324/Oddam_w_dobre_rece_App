@@ -3,9 +3,9 @@ import "../scss/home_about_us.scss"
 
 
 
-function HomeAboutUs(HomeAboutUs) {
+function HomeAboutUs() {
     return (
-        <section id={HomeAboutUs} className="about_us container">
+        <section id="HomeAboutUs" className="about_us container">
             <div className="about_us__left_box">
                 <h2 className="about_us__heading_text">O nas</h2>
                 <div className="about_us__decoration"></div>

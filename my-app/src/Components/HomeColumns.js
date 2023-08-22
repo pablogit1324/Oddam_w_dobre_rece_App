@@ -1,10 +1,10 @@
 import React from "react";
 import "../scss/home_columns.scss"
 
-function HomeColumns(HomeColumnsData) {
+function HomeColumns() {
     return (
         <>
-        <section id={HomeColumnsData} className="columns container">
+        <section id="HomeColumns" className="columns">
             <div className="columns__column">
                 <div className="columnfirst">
                     <h2 className="columnfirst__title">10</h2>
@@ -34,22 +34,22 @@ function HomeColumns(HomeColumnsData) {
                     <div className="steps__firststep">
                         <div className="steps__firststep__img"></div>
                         <h3 className="steps__firststep__title">Wybierz rzeczy</h3>
-                        <p className="steps__firststep__text">ubrania, zabawki, sprzęt i inne</p>
+                        <p className="steps__firststep__text">ubrania, zabawki,<br/> sprzęt i inne</p>
                     </div>
                     <div className="steps__secondstep">
                         <div className="steps__secondstep__img"></div>
                         <h3 className="steps__secondstep__title">Spakuj je</h3>
-                        <p className="steps__secondstep__text">skorzystaj z worków na śmieci</p>
+                        <p className="steps__secondstep__text">skorzystaj z<br/> worków na śmieci</p>
                     </div>
                     <div className="steps__thirdstep">
                         <div className="steps__thirdstep__img"></div>
-                        <h3 className="steps__thirdstep__title">Zdecyduj komu chcesz pomóc</h3>
-                        <p className="steps__thirdstep__text">wybierz zaufane miejsce</p>
+                        <h3 className="steps__thirdstep__title">Zdecyduj komu<br/> chcesz pomóc</h3>
+                        <p className="steps__thirdstep__text">wybierz zaufane<br/> miejsce</p>
                     </div>
                     <div className="steps__fourthstep">
                         <div className="steps__fourthstep__img"></div>
                         <h3 className="steps__fourthstep__title">Zamów kuriera</h3>
-                        <p className="steps__fourthstep__text">kurier przyjedzie w dogodnym terminie</p>
+                        <p className="steps__fourthstep__text">kurier przyjedzie<br/> w dogodnym terminie</p>
                     </div>
                 </div>
                 <div className="steps__button">

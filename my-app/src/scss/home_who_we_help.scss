@@ -1,0 +1,137 @@
+@import "main.scss";
+
+.home_who_we_help {
+  width: 134.4rem;
+  height: 86.2rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.home_who_we_help__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_who_we_help__heading_text {
+
+  font-family: $font-base;
+  font-weight: 400;
+  font-size: 3.8rem;
+  color: $color-text;
+
+}
+
+.home_who_we_help__decoration {
+  width: 25.3rem;
+  height: 3.3rem;
+  background-image: url("../assets/Decoration.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 2.4rem 0 4.8rem 0;
+}
+
+.home_who_we_help__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.home_who_we_help__button {
+  width: 20.8rem;
+  height: 7.9rem;
+  border: 1px solid $color-text;
+  font-family: $font-base;
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin: 0 5.6rem;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: white;
+
+}
+
+.home_who_we_help__text{
+  width: 64rem;
+  height: 9.4rem;
+  font-size: 2.2rem;
+    font-family: $font-base;
+    font-weight: 400;
+  text-align: center;
+  line-height: 3rem;
+  color: $color-text;
+
+}
+
+.home_who_we_help__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.8rem;
+}
+
+.home_who_we_help__list__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 134.4rem;
+    height: 8.1rem;
+    margin-bottom: 1.6rem;
+  border-bottom: 1px solid $color-text;
+}
+.home_who_we_help__list__item__title{
+    font-family: $font-base;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: $color-text;
+    margin-bottom: 1.6rem;
+
+}
+.home_who_we_help__list__item__title_text{
+    font-family: $font-alt;
+    font-weight: 300;
+    font-size: 2.6rem;
+    color: $color-text;
+    text-align: left;
+    line-height: 3.1rem;
+}
+.home_who_we_help__list__item__title_text_secondary{
+    font-family: $font-alt;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: $color-text;
+    text-align: left;
+    line-height: 2.2rem;
+    margin-top: 1.6rem;
+}
+.home_who_we_help__list__item__things{
+    font-family: $font-base;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: $color-text;
+    line-height: 2.2rem;
+}
+
+
+.home_who_we_help__pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.8rem;
+}
+
+.home_who_we_help__pagination__item button{
+    width: 4rem;
+    height: 5rem;
+    border: 1px solid #707070;
+    margin: 0 1.6rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+

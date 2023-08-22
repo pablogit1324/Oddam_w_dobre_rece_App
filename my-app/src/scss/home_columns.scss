@@ -57,6 +57,9 @@
   color: $color-text;
   text-align: center;
   margin-bottom: 2rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.32px;
+
 }
 
 .columnsecond {
@@ -96,6 +99,10 @@
   color: $color-text;
   text-align: center;
   margin-bottom: 2rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.32px;
+
+
 }
 
 .columnthird {
@@ -135,6 +142,8 @@
   color: $color-text;
   text-align: center;
   margin-bottom: 2rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.32px;
 }
 
 .stepcolumn {
@@ -178,23 +187,35 @@
   align-items: center;
   margin-top: 10rem;
 }
-.steps__firststep{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10rem;
+
+.steps__firststep {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
 }
 
 .steps__firststep__title {
+  display: flex;
+  justify-content: center;
   font-size: 1.8rem;
   font-family: $font-base;
   color: $color-text;
   text-decoration: none;
-  margin-top: 2rem;
   margin-bottom: 2rem;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 0.1rem;
+    background-color: $color-text;
+    margin-top: 3rem;
+  }
 }
 
 .steps__firststep__text {
@@ -217,23 +238,35 @@
   margin-bottom: 2rem;
 }
 
-.steps__secondstep{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10rem;
+.steps__secondstep {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
 }
 
 .steps__secondstep__title {
+  display: flex;
+  justify-content: center;
   font-size: 1.8rem;
   font-family: $font-base;
   color: $color-text;
   text-decoration: none;
-  margin-top: 2rem;
   margin-bottom: 2rem;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 0.1rem;
+    background-color: $color-text;
+    margin-top: 3rem;
+  }
+
 }
 
 .steps__secondstep__text {
@@ -243,6 +276,7 @@
   color: $color-text;
   text-align: center;
   margin-bottom: 2rem;
+
 }
 
 .steps__secondstep__img {
@@ -256,23 +290,35 @@
   margin-bottom: 2rem;
 }
 
-.steps__thirdstep{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10rem;
+.steps__thirdstep {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
 }
 
 .steps__thirdstep__title {
+  display: flex;
+  justify-content: center;
   font-size: 1.8rem;
   font-family: $font-base;
   color: $color-text;
   text-decoration: none;
-  margin-top: 2rem;
   margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 0.1rem;
+    background-color: $color-text;
+    margin-top: 5rem;
+  }
 }
 
 .steps__thirdstep__text {
@@ -295,23 +341,34 @@
   margin-bottom: 2rem;
 }
 
-.steps__fourthstep{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10rem;
+.steps__fourthstep {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
 }
 
 .steps__fourthstep__title {
+  display: flex;
+  justify-content: center;
   font-size: 1.8rem;
   font-family: $font-base;
   color: $color-text;
   text-decoration: none;
-  margin-top: 2rem;
   margin-bottom: 2rem;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 0.1rem;
+    background-color: $color-text;
+    margin-top: 3rem;
+  }
 }
 
 .steps__fourthstep__text {
